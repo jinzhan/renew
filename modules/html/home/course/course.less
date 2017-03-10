@@ -1,0 +1,179 @@
+@import url(/modules/css/config.less);
+
+.course-section {
+  height: 765px;
+  background: url(../img/bg_course.png) no-repeat 50% 0;
+  .carousel-control {
+    background: none !important;
+  }
+  .carousel-indicators {
+    bottom: -48px;
+    li {
+      border-color: transparent;
+      background: #cecece;
+    }
+    .active {
+      background: #225590;
+      border-color: #225590;
+    }
+  }
+
+  .glyphicon-chevron-right {
+    background: url(../img/icon_right_normal.png) no-repeat;
+    width: 56px !important;
+    height: 56px !important;
+    display: block;
+    right: -70px !important;
+    &:before {
+      content: ' ';
+    }
+    &:hover {
+      background: url(../img/icon_right_hover.png) no-repeat;
+    }
+  }
+
+  .carousel-control {
+    width: 0;
+  }
+
+  .glyphicon-chevron-left {
+    background: url(../img/icon_left_normal.png) no-repeat;
+    width: 56px !important;
+    height: 56px !important;
+    display: block;
+    left: -70px !important;
+    &:before {
+      content: ' ';
+    }
+    &:hover {
+      background: url(../img/icon_left_hover.png) no-repeat;
+    }
+  }
+
+  .t-cn {
+    padding-top: 70px;
+    color: #4a494a;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  .carousel-outer {
+    width: 1210px;
+  }
+
+  .caro-item {
+    .flex();
+    width: 1210px;
+    li {
+      box-sizing: border-box;
+      padding-top: 200px;
+      color: #fff;
+      font-family: "LiHei Pro";
+      span {
+        display: block;
+        text-align: center;
+      }
+      .sp-cn {
+        line-height: 24px;
+        font-size: 20px;
+        height: 35px;
+        &:before {
+          background: url(../img/icon_arraw_white.png);
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+          content: ' ';
+          margin-right: 6px;
+          vertical-align: top;
+        }
+      }
+      .sp-en {
+        font-size: 18px;
+        opacity: 0.8;
+      }
+    }
+
+    .gravity {
+      width: 285px;
+      height: 460px;
+      background: url(../img/course1.png) no-repeat;
+      background-size: cover;
+    }
+
+    .rehab {
+      width: 256px;
+      height: 460px;
+      background: url(../img/course2.png) no-repeat;
+      background-size: cover;
+    }
+
+    .personal {
+      width: 285px;
+      height: 460px;
+      background: url(../img/course3.png) no-repeat;
+      background-size: cover;
+    }
+
+    .pilates {
+      width: 248px;
+      height: 460px;
+      background: url(../img/course4.png) no-repeat;
+      background-size: cover;
+    }
+
+    .reservation {
+      width: 133px;
+      height: 40px;
+      box-sizing: border-box;
+      border: 2px solid #fff;
+      line-height: 36px;
+      display: block;
+      font-size: 20px;
+      color: #fff;
+      border-radius: 20px;
+      text-align: center;
+      margin: 95px auto 0;
+      text-decoration: none;
+      &:hover {
+        background: #F6A623;
+        border-color: #F6A623;
+      }
+    }
+  }
+}
+
+.banner-section {
+  padding-top: 70px;
+  box-sizing: border-box;
+  background: url(../img/banner.png) no-repeat;
+  height: 302px;
+  p {
+    width: 622px;
+    height: 92px;
+    box-sizing: border-box;
+    font: 36px/92px "LiHei Pro";
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+  }
+
+  a {
+    display: block;
+    border: 1px solid #fff;
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 30px auto 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      background: #F6A623;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

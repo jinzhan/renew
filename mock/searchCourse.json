@@ -1,0 +1,79 @@
+{
+  "code": 0,
+  "message": "查询成功",
+  "timestamp": 1484644841769,
+  "data": {
+    "rows": [
+      {
+        "id": 0,
+        "createdAt": "yyyy-mm-dd hh:mm:ss",
+        "updatedAt": "yyyy-mm-dd hh:mm:ss",
+        "mode": "ooo",
+        "name": "abc",
+        "teacher": {
+          "id": 0,
+          "name": "bob",
+          "regFlag": "0x3",
+          "photoUrl": ".../xxxx/yyyy.jpg",
+          "evaluation": 100000,
+          "averageEvaluation": 5,
+          "workYears": 10,
+          "about": "..."
+        },
+        "topic": "英语",
+        "picUrl": "http://imglf.nosdn.127.net/img/MlhvZUk0MFdSWkNaS1JReXcrQkJ5djJ2dWI0WXFBQ3RFS241OEgveEdRQkRraE1QYlU3azdnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg",
+        "attention": "10000",
+        "maxStudentCount": "200",
+        "about": "...",
+        "minCost": 100
+      },
+      {
+        "id": 0,
+        "createdAt": "yyyy-mm-dd hh:mm:ss",
+        "updatedAt": "yyyy-mm-dd hh:mm:ss",
+        "mode": "ooo",
+        "name": "abc",
+        "teacher": {
+          "id": 0,
+          "name": "bob",
+          "regFlag": "0x3",
+          "photoUrl": ".../xxxx/yyyy.jpg",
+          "evaluation": 100000,
+          "averageEvaluation": 5,
+          "workYears": 10,
+          "about": "..."
+        },
+        "topic": "英语",
+        "picUrl": "http://imglf.nosdn.127.net/img/MlhvZUk0MFdSWkNaS1JReXcrQkJ5djJ2dWI0WXFBQ3RFS241OEgveEdRQkRraE1QYlU3azdnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg",
+        "attention": "10000",
+        "maxStudentCount": "200",
+        "about": "...",
+        "minCost": 100
+      },
+      {
+        "id": 0,
+        "createdAt": "yyyy-mm-dd hh:mm:ss",
+        "updatedAt": "yyyy-mm-dd hh:mm:ss",
+        "mode": "ooo",
+        "name": "abc",
+        "teacher": {
+          "id": 0,
+          "name": "bob",
+          "regFlag": "0x3",
+          "photoUrl": "http://imglf1.nosdn.127.net/img/VDNKeGVHMTNVQ2wwMm1xb25Jd3JUNmFFZHBpR3drc0FiQUpzaGJEaGdoREE5Nng0S3VKOFFBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg",
+          "evaluation": 100000,
+          "averageEvaluation": 5,
+          "workYears": 10,
+          "about": "..."
+        },
+        "topic": "英语",
+        "picUrl": "http://imglf.nosdn.127.net/img/MlhvZUk0MFdSWkNaS1JReXcrQkJ5djJ2dWI0WXFBQ3RFS241OEgveEdRQkRraE1QYlU3azdnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg",
+        "attention": "10000",
+        "maxStudentCount": "200",
+        "about": "...",
+        "minCost": 100
+      }
+    ],
+    "total": 1000
+  }
+}

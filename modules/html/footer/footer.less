@@ -1,0 +1,51 @@
+@import url(/modules/css/config.less);
+
+footer {
+  background: #373c43;
+  .layout-row {
+    width: 970px;
+  }
+  .cr {
+    font: 18px/10 'Raleway Medium';
+    color: #fff;
+  }
+
+  ul {
+    width: 380px;
+    padding-top: 45px;
+    float: right;
+    .flex();
+  }
+
+  p {
+    float: left;
+  }
+
+  li {
+    a {
+      display: block;
+      width: 90px;
+      height: 90px;
+    }
+    .facebook {
+      background: url(../home/img/facebook_normal.png);
+      &:hover {
+        background: url(../home/img/facebook_hover.png);
+      }
+    }
+
+    .line {
+      background: url(../home/img/line_normal.png);
+      &:hover {
+        background: url(../home/img/line_hover.png);
+      }
+    }
+
+    .youtube {
+      background: url(../home/img/youtube_normal.png);
+      &:hover {
+        background: url(../home/img/youtube_hover.png);
+      }
+    }
+  }
+}
