@@ -1,1 +1,1 @@
-nohup node index.js &>/dev/null &
+nohup node app.js &>/dev/null &
