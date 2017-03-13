@@ -3,6 +3,6 @@ require('/modules/lib/bootstrap.js');
 
 module.exports = {
     init: function () {
-       // $('.carousel').carousel();
+        $(window).width() > 900 && $('.carousel').carousel();
     }
 };

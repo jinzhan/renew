@@ -29,6 +29,7 @@ footer {
     }
     .facebook {
       background: url(../home/img/facebook_normal.png?__inline);
+      background-size: cover;
       &:hover {
         background: url(../home/img/facebook_hover.png?__inline);
       }
@@ -36,6 +37,7 @@ footer {
 
     .line {
       background: url(../home/img/line_normal.png?__inline);
+      background-size: cover;
       &:hover {
         background: url(../home/img/line_hover.png?__inline);
       }
@@ -43,8 +45,42 @@ footer {
 
     .youtube {
       background: url(../home/img/youtube_normal.png?__inline);
+      background-size: cover;
       &:hover {
         background: url(../home/img/youtube_hover.png?__inline);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    background: #373c43;
+    .layout-row {
+      width: auto;
+    }
+    .cr {
+      padding-top: 20px;
+      font: 14px/2 'Raleway Medium';
+      text-align: center;
+    }
+
+    ul {
+      width: auto;
+      padding: 10px 60px 30px;
+      float: none;
+      .flex();
+    }
+
+    p {
+      float: none;
+    }
+
+    li {
+      a {
+        display: block;
+        width: 60px;
+        height: 60px;
       }
     }
   }

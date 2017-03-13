@@ -5,6 +5,9 @@
   z-index: 10;
   left: 0;
   top: 0;
+  .navbar-toggle {
+    display: none;
+  }
   .nav-bg {
     left: 0;
     top: 0;
@@ -40,13 +43,85 @@
         text-decoration: none;
       }
       font: 18px/54px 'LiHei Pro';
-      .current {
-        color: #f6a623;
-      }
-
       .nav-home {
         color: #fff;
       }
     }
+    .current {
+      a {
+        color: #f6a623;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav {
+    height: 48px;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: #373c43;
+    .layout-row {
+      position: relative;
+    }
+    .navbar-toggle {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar-toggle .icon-bar {
+      background: #fff;
+    }
+    .nav-bg {
+      height: 48px;
+      display: none;
+    }
+    .logo {
+      display: none;
+    }
+
+    ul {
+      position: static;
+      text-align: center;
+      transition: height .1s;
+      -webkit-transition: height .1s;
+      li {
+        display: none;
+        float: none;
+        margin-left: 0;
+        font: 18px/48px 'LiHei Pro';
+        border-top: 1px solid #5d6069;
+        background: #373c43;
+      }
+      .current {
+        display: block;
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+    ul.on-active {
+      li {
+        display: block;
+      }
+      .current {
+        a {
+          color: #f6a623;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav .logo {
+    left: 30px;
+  }
+
+  .nav ul {
+    right: 30px;
   }
 }

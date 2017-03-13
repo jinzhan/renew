@@ -1,6 +1,14 @@
 @import url(/modules/css/config.less);
 
 .course-section {
+  .course-section .glyphicon-chevron-left {
+    left: -50px !important;
+  }
+
+  .course-section .glyphicon-chevron-right {
+    right: -50px !important;
+  }
+
   height: 765px;
   background: url(../img/bg_course.png) no-repeat 50% 0;
   .carousel-control {
@@ -59,12 +67,14 @@
   }
 
   .carousel-outer {
-    width: 1210px;
+    max-width: 1210px;
+    min-width: 1063px;
   }
 
   .caro-item {
     .flex();
-    width: 1210px;
+    max-width: 1210px;
+    min-width: 1063px;
     li {
       box-sizing: border-box;
       padding-top: 200px;
@@ -95,28 +105,28 @@
     }
 
     .gravity {
-      width: 285px;
+      width: 280px;
       height: 460px;
       background: url(../img/course1.png) no-repeat;
       background-size: cover;
     }
 
     .rehab {
-      width: 256px;
+      width: 250px;
       height: 460px;
       background: url(../img/course2.png) no-repeat;
       background-size: cover;
     }
 
     .personal {
-      width: 285px;
+      width: 280px;
       height: 460px;
       background: url(../img/course3.png) no-repeat;
       background-size: cover;
     }
 
     .pilates {
-      width: 248px;
+      width: 250px;
       height: 460px;
       background: url(../img/course4.png) no-repeat;
       background-size: cover;
@@ -174,6 +184,84 @@
       background: #F6A623;
       color: #fff;
       text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1063px) {
+  .course-section .glyphicon-chevron-left {
+    left: 20px !important;
+  }
+
+  .course-section .glyphicon-chevron-right {
+    right: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .course-section {
+    height: auto;
+    background: url(../img/bg_course.png) repeat-y 50% 0;
+    .carousel-control {
+      display: none;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+
+    .t-cn {
+      padding-top: 70px;
+      color: #4a494a;
+    }
+
+    .carousel-outer {
+      max-width: none;
+      min-width: 0;
+    }
+
+    .caro-item {
+      display: block;
+      max-width: none;
+      min-width: 0;
+      li {
+        margin: 20px auto;
+        width: 280px !important;
+      }
+    }
+  }
+
+  .banner-section {
+    padding-top: 90px;
+    box-sizing: border-box;
+    background: #6c7279 url(../img/banner.png) no-repeat 50% 0;
+    height: 302px;
+    p {
+      width: auto;
+      height: 60px;
+      box-sizing: border-box;
+      margin: 0 20px;
+      font: 18px/60px "LiHei Pro";
+      color: #fff;
+      text-align: center;
+      border: 2px solid #fff;
+    }
+
+    a {
+      display: block;
+      border: 1px solid #fff;
+      width: 125px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 40px;
+      margin: 30px auto 0;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        background: #F6A623;
+        color: #fff;
+        text-decoration: none;
+      }
     }
   }
 }
